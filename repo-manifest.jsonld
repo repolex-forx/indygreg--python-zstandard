@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/indygreg/python-zstandard/commit/a2bb3c0bb3657007b79617dcd63ff3c6e2acedd2",
       "git:hexsha": "a2bb3c0bb3657007b79617dcd63ff3c6e2acedd2",
-      "repolex:parseStatus": "metadata_complete"
+      "repolex:parseStatus": "ast_complete"
     },
     {
       "@id": "https://repolex.ai/r/indygreg/python-zstandard/commit/f53dcd2c7266eadb65c97efd8d002ae12c12d4e6",

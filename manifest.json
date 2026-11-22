@@ -335,6 +335,126 @@
       ],
       "ast": [
         "aggregate/ast/7a77a7510b8ce068e4a103d29aea1b5ec829d8b6/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/7a77a7510b8ce068e4a103d29aea1b5ec829d8b6.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "cffi",
+          "ecosystem": "PYPI",
+          "version": "1.17",
+          "githubOrg": "python-cffi",
+          "githubRepo": "cffi",
+          "githubUrl": "https://github.com/python-cffi/cffi",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "libc",
+          "ecosystem": "CARGO",
+          "version": "0.2.175",
+          "githubOrg": "rust-lang",
+          "githubRepo": "libc",
+          "githubCommit": "84e26e6b166a6634d679fbf44e957102846b8a03",
+          "githubTag": "0.2.175",
+          "githubUrl": "https://github.com/rust-lang/libc",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "num_cpus",
+          "ecosystem": "CARGO",
+          "version": "1.17.0",
+          "githubOrg": "seanmonstar",
+          "githubRepo": "num_cpus",
+          "githubCommit": "342af76b486335e5a955c7314fc96cd104e7a17b",
+          "githubTag": "v1.17.0",
+          "githubUrl": "https://github.com/seanmonstar/num_cpus",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rayon",
+          "ecosystem": "CARGO",
+          "version": "1.11.0",
+          "githubOrg": "rayon-rs",
+          "githubRepo": "rayon",
+          "githubCommit": "7af20d7692d5decbcb4adcaa079cd607e3e50814",
+          "githubTag": "v1.11.0",
+          "githubUrl": "https://github.com/rayon-rs/rayon",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "zstd-safe",
+          "ecosystem": "CARGO",
+          "version": "7.2.4",
+          "githubOrg": "gyscos",
+          "githubRepo": "zstd-rs",
+          "githubUrl": "https://github.com/gyscos/zstd-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "zstd-sys",
+          "ecosystem": "CARGO",
+          "version": "2.0.16",
+          "githubOrg": "gyscos",
+          "githubRepo": "zstd-rs",
+          "githubUrl": "https://github.com/gyscos/zstd-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "pyo3",
+          "ecosystem": "CARGO",
+          "version": "0.25.1",
+          "githubOrg": "pyo3",
+          "githubRepo": "pyo3",
+          "githubCommit": "2aacae6cef1bc806a642d3018bb66a307a7850bd",
+          "githubTag": "v0.25.1",
+          "githubUrl": "https://github.com/pyo3/pyo3",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "pyo3-ffi",
+          "ecosystem": "CARGO",
+          "version": "0.25.1",
+          "githubOrg": "pyo3",
+          "githubRepo": "pyo3",
+          "githubCommit": "2aacae6cef1bc806a642d3018bb66a307a7850bd",
+          "githubTag": "v0.25.1",
+          "githubUrl": "https://github.com/pyo3/pyo3",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-ffi-0.25.1/src/pybuffer.rs"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.2.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "3895f9829fc0e51882981773a823a658eb1d1636",
+          "githubTag": "v84.2.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/_distutils/ccompiler.py"
+        },
+        {
+          "packageName": "packaging",
+          "ecosystem": "PYPI",
+          "version": "26.3.0",
+          "githubOrg": "pypa",
+          "githubRepo": "packaging",
+          "githubUrl": "https://github.com/pypa/packaging",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/packaging/tags.py"
+        },
+        {
+          "packageName": "requests",
+          "ecosystem": "PYPI",
+          "version": "2.34.2",
+          "githubOrg": "psf",
+          "githubRepo": "requests",
+          "githubCommit": "6e83187b8feb273ed4c6cdab5efd8d54901dfab3",
+          "githubTag": "v2.34.2",
+          "githubUrl": "https://github.com/psf/requests",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/requests/sessions.py"
+        }
       ]
     }
   ],

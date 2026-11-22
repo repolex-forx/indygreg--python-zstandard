@@ -455,7 +455,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/requests/sessions.py"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/7a77a7510b8ce068e4a103d29aea1b5ec829d8b6/chunk-001.nq.gz",
+      "dep": "dep/7a77a7510b8ce068e4a103d29aea1b5ec829d8b6.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
